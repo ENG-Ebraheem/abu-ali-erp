@@ -1,0 +1,33 @@
+# Build and tool directories
+/build/
+/.dart_tool/
+.dart_tool/
+.pub/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Coverage and caches
+coverage/
+__pycache__/
+*.pyc
+
+# IDE and temporary files
+.idea/
+.vscode/
+*.iml
+.metadata
+*.log
+*.tmp
+
+# Databases and user data
+*.sqlite
+*.db
+*.bak
+*.backup
+
+# Keystores and secrets
+android/app/debug.keystore
+android/app/*.jks
+android/app/src/main/res/raw/*
+.env
